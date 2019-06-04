@@ -1,0 +1,10 @@
+body {
+    background-image:linear-gradient(#ffe1d6,#fff5f2);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

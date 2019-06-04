@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="howto-3.css">
+    <title>Document</title>
+    <style>
+        
+        h1, h2, h3, p{
+            color:rgb(58, 9, 0);
+            margin-left:20px;
+            margin-right:20px;
+        }
+        h2{
+            padding-top:10px;
+        }
+        h3{
+            padding-bottom:2px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center; border: 10px double; margin-left:250px; margin-right:250px;">How To - Interactive Page</h1>
+    <img src="https://www.w3schools.com/whatis/img_js.png" height="250px" style="margin-left:560px;">
+    <div style="border:double; margin:10px;">    
+        <h2 style="text-align:center;">What is the project and how does it work?</h2>
+        <p style="text-align:center;margin-left:250px;margin-right:250px;">This project is called Interactive Websites. The requirements were to create a webpage using HTML, Javascript, and CSS. The main focus was linking the HTML to the javascript and changing aspects of the HTML and CSS through events in javascript. HTML and CSS are programming languages created for website design. While HTML is based around the structure and larger components, CSS affects mostly the specifics and designs. For example. HTML would be used to make headers and paragraphs, while CSS would change the colors and positionings of them. Meanwhile, javascript has many more uses. It is an object based programming language, more focused on conditions, events, elements, and responses to events. To incorporate these into a webpage, I had to use buttons, inputs, and paragraphs. The page is a math test that begins by showing one problem and having a text box for an answer. After the correct answer is inputted and the button is pressed, a new problem will show up. If the wrong answer is entered and the button is clicked, the screen will turn red. If one gets all of the answers correct, the screen will turn green. 
+ 
+</p>
+    </div>
+    <div style="border:double; margin:10px;">    
+        <h2 style="text-align:center;">What are some specifics of Javascript?</h2>
+        <p style="text-align:center;margin-left:250px;margin-right:250px;">The project was mainly about connecting the HTML of a website to the javascript and changing the HTML based on conditions in the javascript. However, I needed to connect tags in HTML to become elements in javascript. Before this was done, HTML tags had to be created. For an interactive website, inputs from the user had to be taken, so tags like input and button (with less than and equal than signs around them) were common in creating input boxes and buttons. Each tag was then given an id, depending on whether is would be a condition or effect in the javascript. For example, the first button in the interactive website has an id of button1 to label it as the first button. To transfer the javascript, 9 getElementByID was used in the javascript page to create a variable from the HTML tag. The code line was written as so: var button1 = document.getElementById("button1");. The var at the beginning shows that it is a variable and the word after is the name given to the variable. The equal sign indicates that this variable now holds to value of everything after it. Anything with the ID “button1” in the HTML is now stored in the variable button1. After creating the variable, an event had to be created. I used addEventListener to to this. The code line looks like button1.addEventListener("click",pat);. The addEventListener waits for a certain event to happen to button one, in this case, the click, and then will call on a “listener” usually a function. In this case, the function is pat, short for pattern. The function pat is a function that will evaluate is the correct answer was inputted when the button was pressed. If the input equaled the correct number,  then the next pattern would appear with a new input box and number. If the wrong answer was inputted, the background color would turn red. 
+  
+</p>
+
+    </div>
+    <div style="border:double; margin:10px;">
+        <h2 style="text-align:center;">What choices did you have to make and how did you go about making them?</h2>
+        <p style="text-align:center;margin-left:250px;margin-right:250px">When creating the website, I was tasked with creating the addEventListeners for the buttons. One way of doing so is writing the function inside the eventListener by writing addEventListener(“click”, function(){}). However, the issue with this is the function was unnamed and it was more difficult to create if statements that connected one eventListener to the other in a procedural way. Therefore, I wrote them instead by placing the function name after “click” and writing out the functions for each problem. This way, I easily could see the differences between each problem and the if statements that triggered another function to be called on. Another choice I made was the option to refresh the page. In the interactive website, when an input for a problem is incorrect and the button is pressed, the background color of the screen would turn a bright red until they were able to get all four problems correct. If they managed to get all four problems correct, the screen would turn green. This choice was a reference from a game called kahoot. However, many are perfectionists and would prefer to get all four answers correct in a row, rather than having their screen red as they solve the other problems. Therefore, I created the refresh button. Another reason I created the button was for convenience. If one person finished the problem set and another wished to try, they had an easy way of clearing both the answers and the background color of the screen.
+
+</p>
+        
+    </div>
+    <div style="border:double; margin:10px;">
+        <h2 style="text-align:center;">How has this project changed your connection and understanding of Javascrpt?</h2>
+        <p style="text-align:center;margin-left:250px;margin-right:250px">In the past programming expeditions, I had many different experiences. For example, the first project, with HTML and CSS, was both difficult at the beginning, but then quite easy to learn and I felt very comfortable trying out new things, as the content I created, I understood the code behind it. In the next project, I was even more interested in the coding language as we were creating interactive art. Since the results were so visually pleasing and the code more difficult. I felt much more rewarded when I understood the different aspects of javascript, like the loops, if statements, and functions. However, in the project, I stuggled at the beginning as HTML and javascript, languages that I found very different, were influencing each other. I did not understand how to make the javascript change the HTML in the beginning. However, once I understood the code, I felt more comfortable using HTML with javascript. This project has helped me learn how more programming languages are connected, like HTML and javaascript, and how they benefit each other in the creation of websites that are interactive. 
+</p>
+    </div>
+    <div style="border:double; margin:10px;">
+        <h2 style="text-align:center;">What is one thing you would change if you had more time?</h2>
+        <p style="text-align:center;margin-left:250px;margin-right:250px">The interactive website I created, while containing four challenging pattern problems, does not offer a challenge to people that take it for a second time. Once one answers all four questions, the website has no more use to them as they know all of the answers. If I had more time, I would have liked to create a program that created new problems after each refresh to make a new experience everytime.  
+</p>
+    </div>
+    
+    
+</body>
+</html>

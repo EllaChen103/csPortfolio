@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="howto.css">
+    <style>
+        body{
+            background-color:#f2f9ff;
+        }
+        h1, h2, h3, p{
+            color:rgb(0, 31, 58);
+            margin-left:20px;
+            margin-right:20px;
+        }
+        h2{
+            padding-top:10px;
+        }
+        h3{
+            padding-bottom:2px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center; border: 10px double; margin-left:250px; margin-right:250px;">How To - About Me</h1>
+    <img src="https://cdn-images-1.medium.com/max/1200/1*lJ32Bl-lHWmNMUSiSq17gQ.png" height="250px" style="margin-left:500px;">
+    <div style="border:dotted; margin:10px;">    
+        <h2 style="text-align:center;">What is the project and how does it work?</h2>
+        <p style="text-align:center;margin-left:250px;margin-right:250px;">This project focused mainly on HTML and CSS. These languages are used for created websites; HTML is the code that creates the structure of the website and CSS is the language for specific styling. I used these programming languages to create a website about me. On the website, I included some of my hobbies and new things I was learning in HTML and CSS. I used HTML tags to create headers, images, tables, lists, and paragraphs. I used CSS to change the colors of the text, background, and borders while also changing aspects of the borders and locations of text. For example, to create headers, I used an HTML tag <code>&lt;h1&gt;&lt;/h1&gt;</code> and changed the 1 to create headers of different sizes. However, the change the color of these headers, I used CSS and wrote color:rgb();.</p>
+    </div>
+    <div style="border:dotted; margin:10px;">    
+        <h2 style="text-align:center;">What are some specifics of the HTML and CSS?</h2>
+        <h3 style="text-align:center">HTML</h3>
+        <p style="text-align:center;margin-left:250px;margin-right:250px;">HTML(Hypertext Markup Language) is a coding language that uses tags. Tags are surrounded by less than and greater than signs; the end tag has a backlash inside. The most important tag is the body tag because every line of HTML must be written within it. The first HTML I learned was the header tag: <code>&lt;h1&gt;</code>. Between the opening and ending tag, one must write what they wish their header/title to be. As the number after h becomes increasingly larger, the header will become smaller/more of a sub header. Headers were useful in my about me page because they help separate and label different sections of my website very clearly. <img src="header.png" height="75px"> The next tag learned was the paragraph tag <code>&lt;p&gt;</code>. THe paragraph tag was used for the larger blocks of text; the main content of the page. This tag was useful in the about me page for writing quick descriptions about myself and introducing HTML and CSS on the page.  </p>
+    
+    
+        <h3 style="text-align:center;">CSS</h3>
+    
+        <p style="text-align:center;margin-left:250px;margin-right:250px">CSS stands for Cascading Style Sheets and is a coding language often used with HTML to build websites. Since it is a different language, it must be incorporated into HTML. One way to do this is to write style="" within the opening tag and write the CSS inside (inline CSS). Another way is to create a style tag with HTML and write the CSS within the style tags. The last way is to create an external file and link the file in the HTML code. In the about me page, inline CSS was used the most. As seen on the page, many of the images and headers had colored borders as well as different styles and placement. In order to change the colors, one must write color:rgb(); or color:#000000; within the style="". In order to change the background color, one would simply write background-color instead of only color.  </p>
+    </div>
+    <div style="border:dotted; margin:10px;">
+        <h2 style="text-align:center;">What choices did you have to make and how did you go about making them?</h2>
+        <p style="text-align:center;margin-left:250px;margin-right:250px">During this project, I had to make many decisions about the placement, colors, and sizes of the text and headers. I also had to decide which format I wanted the page in and how to write my code. One choice I made was to use inline CSS for most of the styling. This meant that I put the CSS code directly inside of the opening HTML tags I was modifying. While most prefer to use an external page to have a more organized HTML page, I prefered the inline CSS because I could easily connect each modification made with the CSS to the specific tag that I was changing. When using an external file, it was more difficult to see which tag was having its color changed or border made larger. However, external files were helpful to group tags together by class and write a single line of CSS to change them all. <img src="inlinecss.png "> This wasn't the only decision I made. One of the requirements for the about me page was some of the specific HTML and CSS I had used to create the page. There were many different ways to show this information: a list, a large paragraph, and a table. First of all, while a list would be beneficial because it doesn't use CSS and each point would breifly show the information. However, the list wouldn't allow for any explanation of the HTML and CSS. A long paragraph, while informational, would be very dense, hard to connect to each code, and difficult to understand. Therefore, I chose to use a table. A table is created by using the table tag in HTML <code>&lt;table&gt;&lt;/table&gt;</code>. To create each row, one must nest <code>&lt;tr&gt;&lt;/tr&gt;</code> within the table tags. My table was being used for a word and definition, so I only needed two rows: one for the HTML or CSS code and one for the explanation of each one. Therefore, as shown below in the image, there are two tr tags. Also, since the individual HTML and CSS code is the category/title, I used the th tag to bold it. The definition was a explanation of each code, so I used the td tag, to make sure it wasn't bolded. </p>
+        <img src="Screen Shot 2018-10-11 at 7.36.53 PM.png" style="border:10px; margin-left: auto; margin-right: auto; display:block;" width="400px">
+        <img src="">
+    </div>
+    <div style="border:dotted; margin:10px;">
+        <h2 style="text-align:center;">How has this project changed your connection and understanding of HTML/CSS?</h2>
+        <p style="text-align:center;margin-left:250px;margin-right:250px">Before taking this class, I believed that HTML and CSS were one of the many programming languages that were too difficult for me to learn or hope to use. When I started the class, I began with HTML and learned that it was much more basic than I previously thought. I learned that its foundation was tags and from that, I could create headers, paragraphs, tables, lists, and more. I now think that HTML is much simpler once you learn the purpose and possibilties of the code, learning is much easier and is basically memorization. Although CSS was slightly more difficult, there was a format to most of the code that I could easily repeat with other commands. Now that I understand what HTML and CSS are used for (building and styling websites) and I have found some patterns in the languages, I feel much more comfortable with creating websites with them and even incorporating new HTML and CSS into them.</p>
+    </div>
+    <div style="border:dotted; margin:10px;">
+        <h2 style="text-align:center;">What is one thing you would change if you had more time?</h2>
+        <p style="text-align:center;margin-left:250px;margin-right:250px">My about me page, while passing, could have been much better with time. The about me page is made up of two parts: details about me and some specific HTML and CSS I learned. However, both of these are on the same page, so it may be a strange transition between the two. Although I did set the text color to be different colors depending on whether it was in a personal class or programming class, the colors dont differ much. If I had more time, I would have placed a border between the sections and perhaps used a div tag to create separate sections of the page. The div tag is a command in HTML in which all content nested within them are a single section of the page.</p>
+    </div>
+</body>
+</html>

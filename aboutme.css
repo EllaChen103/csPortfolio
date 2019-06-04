@@ -1,0 +1,47 @@
+body {
+    background-image:linear-gradient(#fff5e8,white);
+}
+h1 {
+    text-align:center;
+    border:20px solid;
+    font-size:40px;
+    margin-left:300px;
+    margin-right:300px;
+}
+.personal{
+    color: #7c0044;
+    
+}
+#volleyball-picture{
+    border:10px solid;
+}
+p{
+    font-size:25px;
+}
+
+li{
+    font-size:25px;
+}
+.html-css{
+    color:#7c0000;
+}
+th{
+    font-size:30px;
+}
+td{
+    font-size:20px;
+    padding:5px;
+    
+}
+img{
+    height:300px;
+}
+table, th, td{
+    border:3px solid;
+    margin-left:auto;
+    margin-right:auto;
+}
+td{
+    margin-left:5px; 
+    margin-right:5px;
+}
